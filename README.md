@@ -14,9 +14,12 @@ os.chdir should point to base folder.
 
 4) Run command as follows on cmd (from scripts folder):
 
-py transform.py "crop"
+py transform.py "crop" 
+
 py transform.py "soil"
+
 py transform.py "weather"
+
 py transform.py "spectral"
 
 The code currently only supports passing one argument.
